@@ -33,8 +33,6 @@
 
       * Alternatively, it can be manually created by using alphabets, numbers and by not using any special character except `_` and `-`.
 
-  * **DISABLE_FORWARDS**: Restrict user from forwarding or copying files provided by bot.
-
 5.Navigate to "Workers & Pages" (drop-down menu) > "KV" > "Create a namespace" and create namespace called `files_data`.
 
 6.Go back to Worker (created in 2nd step) > "Settings" > "Variables" > scroll down to "KV Namespace Bindings" and create variable `files_data` and bind it to same namespace (created in 5th step) > "Deploy".
